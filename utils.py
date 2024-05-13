@@ -41,7 +41,9 @@ class CustomDataset(torch.utils.data.Dataset):
         return img, bounding_boxes
 
     @staticmethod
-    def draw_bounding_box(img, bounding_boxes):
+    def draw_bounding_box(args):
+        img, bounding_boxes = args
+        img = np.ascontiguousarray(img)
         H, W, C = img.shape
         for box in bounding_boxes:
             center_x = box.center_x * W
