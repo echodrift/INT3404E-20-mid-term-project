@@ -54,3 +54,9 @@ class CustomDataset(torch.utils.data.Dataset):
             bottom_right = Point(int(center_x + width / 2), int(center_y + height / 2))
             cv2.rectangle(img, top_left, bottom_right, (255, 0, 0), 2)
         plt.imshow(img)
+        plt.show()
+
+    @staticmethod
+    def get_size(args):
+        img, bounding_boxes = args
+        return img.shape
