@@ -1,5 +1,3 @@
-import os
-from glob import glob
 from typing import List, NamedTuple, Tuple
 
 import cv2

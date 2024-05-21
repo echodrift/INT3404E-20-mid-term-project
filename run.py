@@ -1,9 +1,12 @@
 from glob import glob
+import os
 
-from utils import CustomDataset
+from utils.dataset import CustomDataset
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 train_image_url_list = glob(
-    "/home/lvdthieu/Documents/Projects/ip-mid-term/datasets/images/train/*.jpg"
+    f"{BASE_DIR}/datasets/images/train/*.jpg"
 )
 
 train_label_url_list = [
@@ -13,3 +16,4 @@ train_label_url_list = [
 
 train_dataset = CustomDataset(train_image_url_list, train_label_url_list)
 print(CustomDataset.get_size(train_dataset[1]))
+CustomDataset.draw_bounding_box(train_dataset[1])
