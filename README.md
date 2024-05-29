@@ -8,10 +8,11 @@
 
 # Authors
 This repository was made by my team consist of 4 members:  
-[Luu Van Duc Thieu](https://github.com/3rcode)  
-[Ngo Le Hoang](https://github.com/htwuto)  
-[Nguyen Thanh Phat](https://github.com/ThuTrang513)  
-[Le Hong Duc](https://github.com/fivontwov)  
+[Luu Van Duc Thieu](https://github.com/echodrift)  
+[Ngo Le Hoang](https://github.com/armistcxy)  
+[Nguyen Thanh Phat](https://github.com/aqu4holic)  
+[Le Hong Duc](https://github.com/tedomi2705)  
+
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
 
