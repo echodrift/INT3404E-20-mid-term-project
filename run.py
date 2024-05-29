@@ -1,7 +1,7 @@
 import os
 from glob import glob
 
-from utils.augmentation import (
+from utils.augmentation.augmentation import (
     CropAugmentation,
     FlipAugmentation,
     KernelFilterAugmentation,
