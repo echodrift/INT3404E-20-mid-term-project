@@ -25,7 +25,7 @@ The project is structured as follows:
 ├── notebooks
 │   └── augmentation.ipynb  # Experiments with augmentation
 ├── README.md
-├── requirements.txt
+├── requirements.txt        # Dependencies to run included files in this repo
 ├── run.py
 ├── utils
 │   ├── augmentation       # Implement image transformations
@@ -49,10 +49,10 @@ To reproduce the results, follow these steps:
 
 ## Authors
 
-This repository was made by my team consist of 4 members:  
-[Luu Van Duc Thieu](https://github.com/echodrift)  
-[Ngo Le Hoang](https://github.com/armistcxy)  
-[Nguyen Thanh Phat](https://github.com/aqu4holic)  
+This repository was made by my team consist of 4 members:
+[Luu Van Duc Thieu](https://github.com/echodrift)
+[Ngo Le Hoang](https://github.com/armistcxy)
+[Nguyen Thanh Phat](https://github.com/aqu4holic)
 [Le Hong Duc](https://github.com/tedomi2705)
 
 ## License
