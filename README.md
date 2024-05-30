@@ -14,6 +14,26 @@ The project is structured as follows:
 - `utils`: Contains utility scripts and notebooks for data augmentation and dataset handling.
 - `yolo_baseline.py`: The script that implements the YOLO algorithm.
 
+## Repo Tree
+
+```
+.
+├── datasets
+│   ├── images              # Contain augmentated, train, validation images
+│   └── labels              # Contain augmentated, train, validation labels
+├── data.yaml
+├── notebooks
+│   └── augmentation.ipynb  # Experiments with augmentation
+├── README.md
+├── requirements.txt
+├── run.py
+├── utils
+│   ├── augmentation       # Implement image transformations
+│   ├── dataset.py
+│   └── __init__.py
+└── yolo_baseline.py
+```
+
 ## Result
 
 (TBD: Add a section here describing the results of your project, including any metrics or visualizations.)
@@ -25,7 +45,7 @@ To reproduce the results, follow these steps:
 1. Clone the repository.
 2. Install the necessary dependencies: `pip install -r requirements.txt`.
 3. Run the `run.py` script.
-(TBD: Add more steps here.)
+   (TBD: Add more steps here.)
 
 ## Authors
 
@@ -33,7 +53,7 @@ This repository was made by my team consist of 4 members:
 [Luu Van Duc Thieu](https://github.com/echodrift)  
 [Ngo Le Hoang](https://github.com/armistcxy)  
 [Nguyen Thanh Phat](https://github.com/aqu4holic)  
-[Le Hong Duc](https://github.com/tedomi2705)  
+[Le Hong Duc](https://github.com/tedomi2705)
 
 ## License
 
