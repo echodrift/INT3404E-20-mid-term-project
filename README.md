@@ -35,13 +35,11 @@ The project is structured as follows:
 ├── requirements.txt      # dependencies needed for code in this repo
 ├── run_augmentation.py   # run this to perform data augmentation
 ├── run_v9.sh            #run this train v9 model (not included with the weight)
-├── train # best checkpoit for yolov9
+├── train # best checkpoint for yolov9
 │   ├── args.yaml
-│   ├── events.out.tfevents.1716308857.1e76c7ee4f5d.2455.0
 │   └── weights
-├── train2 # best checkpoit for yolov8
+├── train2 # best checkpoint for yolov8
 │   ├── args.yaml
-│   ├── events.out.tfevents.1716346557.0959ac39d9d8.5625.0
 │   └── weights
 ├── training.yaml # custom dataset path
 ├── utils # libs for data augmentation
