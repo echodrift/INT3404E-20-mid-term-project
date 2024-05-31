@@ -91,7 +91,7 @@ To reproduce the results, follow these steps:
 
 1. Clone the repository.
 2. Install the necessary dependencies: `pip install -r requirements.txt`.
-3. Get out data from <a href="https://huggingface.co/datasets/armistcxy/augment-sinom-character-dataset">Augment-Data </a> or you can make own dataset and put data to the right folder.
+3. Get out data from <a href="https://www.kaggle.com/datasets/ngolehoang/sinom-augment-data">Augment-Data </a> or you can make own dataset and put data to the right folder.
 4. If you want to train from scratch run `sh run_v9.sh` or else you can use our code to finetune YOLO model
    1. Get a pretrained model weights from anywhere you can get from ""
    2. Run `python yolov8.py`
