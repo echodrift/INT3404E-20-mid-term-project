@@ -91,16 +91,16 @@ To reproduce the results, follow these steps:
 
 1. Clone the repository.
 2. Install the necessary dependencies: `pip install -r requirements.txt`.
-3. Get out data from <a href="https://www.kaggle.com/datasets/ngolehoang/sinom-augment-data">Augment-Data </a> or you can make own dataset and put data to the right folder.
+3. Get our data from <a href="https://www.kaggle.com/datasets/ngolehoang/sinom-augment-data">Augment-Data </a> or you can make own dataset and put data to the right folder (this will not guarantee to reproduce the same result).
 4. If you want to train from scratch run `sh run_v9.sh` or else you can use our code to finetune YOLOv9 model
    1. Get a pretrained model weights from anywhere you can get from ""
    2. Run `python yolov8.py` (please read the file)
 ## Authors
 This repository was made by my team consist of 4 members:
-[Luu Van Duc Thieu](https://github.com/echodrift)
-[Ngo Le Hoang](https://github.com/armistcxy)
-[Nguyen Thanh Phat](https://github.com/aqu4holic)
-[Le Hong Duc](https://github.com/tedomi2705)
+- [Luu Van Duc Thieu](https://github.com/echodrift)
+- [Ngo Le Hoang](https://github.com/armistcxy)
+- [Nguyen Thanh Phat](https://github.com/aqu4holic)
+- [Le Hong Duc](https://github.com/tedomi2705)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
