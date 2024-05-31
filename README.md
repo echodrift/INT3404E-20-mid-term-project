@@ -30,53 +30,23 @@ The project is structured as follows:
 │   ├── augmentation.ipynb # run this to perform data augmentation
 │   ├── nom-localization.ipynb
 │   └── not-gonna-make-it.ipynb # kaggle notebook for fine-tuning yolov8 and v9
-├── __pycache__
-│   └── utils.cpython-311.pyc
 ├── README.md
-├── report.pdf # full report and training plans with analysis from our group
-├── requirements.txt # dependencies needed for code in this repo
-├── run_augmentation.py # run this to perform data augmentation
-├── run_v9.sh run this train v9 model (not included with the weight)
+├── report.pdf          # full report and training plans with analysis from our group
+├── requirements.txt      # dependencies needed for code in this repo
+├── run_augmentation.py   # run this to perform data augmentation
+├── run_v9.sh            #run this train v9 model (not included with the weight)
 ├── train # best checkpoit for yolov9
 │   ├── args.yaml
 │   ├── events.out.tfevents.1716308857.1e76c7ee4f5d.2455.0
-│   ├── labels_correlogram.jpg
-│   ├── labels.jpg
-│   ├── results.csv
-│   ├── train_batch0.jpg
-│   ├── train_batch1.jpg
-│   ├── train_batch2.jpg
 │   └── weights
 ├── train2 # best checkpoit for yolov8
 │   ├── args.yaml
-│   ├── confusion_matrix_normalized.png
-│   ├── confusion_matrix.png
 │   ├── events.out.tfevents.1716346557.0959ac39d9d8.5625.0
-│   ├── F1_curve.png
-│   ├── labels_correlogram.jpg
-│   ├── labels.jpg
-│   ├── P_curve.png
-│   ├── PR_curve.png
-│   ├── R_curve.png
-│   ├── results.csv
-│   ├── results.png
-│   ├── train_batch0.jpg
-│   ├── train_batch1.jpg
-│   ├── train_batch2480.jpg
-│   ├── train_batch2481.jpg
-│   ├── train_batch2482.jpg
-│   ├── train_batch2.jpg
-│   ├── val_batch0_labels.jpg
-│   ├── val_batch0_pred.jpg
-│   ├── val_batch1_labels.jpg
-│   ├── val_batch1_pred.jpg
 │   └── weights
 ├── training.yaml # custom dataset path
 ├── utils # libs for data augmentation
 │   ├── augmentation
 │   ├── dataset.py
-│   ├── __init__.py
-│   └── __pycache__
 ├── yolo_baseline.py # the baseline model for comparision
 └── yolov8.py # our training plan
 ```
