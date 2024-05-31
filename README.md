@@ -13,31 +13,31 @@ The project is structured as follows:
 - `utils/augmentation/run.py`: The main script to augment the dataset.
 - `utils`: Contains utility scripts for data augmentation and dataset handling.
 - `yolo_baseline.py`: Code to run YOLO baseline, no improvement to generate a baseline to compare between approaches
-- `yolov8.py`: Code to train YOLO v8 (final code of us) 
+- `yolov8.py`: Code to train YOLO v8 (final code of us)
 - `run_v9.sh`: The script to train YOLO v9 model
 
 ## Project structure
 
 ```
 .
-├── datasets
+├── datasets # put your dataset here and update data.yaml
 │   ├── images
 │   └── labels
 ├── data.yaml
-├── eval.py
-├── infer.py
+├── eval.py # use to evaluate your model
+├── infer.py # use to infer your model
 ├── notebooks
-│   ├── augmentation.ipynb
+│   ├── augmentation.ipynb # run this to perform data augmentation
 │   ├── nom-localization.ipynb
-│   └── not-gonna-make-it.ipynb
+│   └── not-gonna-make-it.ipynb # kaggle notebook for fine-tuning yolov8 and v9
 ├── __pycache__
 │   └── utils.cpython-311.pyc
 ├── README.md
-├── report.pdf
-├── requirements.txt
-├── run_augmentation.py
-├── run_v9.sh
-├── train
+├── report.pdf # full report and training plans with analysis from our group
+├── requirements.txt # dependencies needed for code in this repo
+├── run_augmentation.py # run this to perform data augmentation
+├── run_v9.sh run this train v9 model (not included with the weight)
+├── train # best checkpoit for yolov9
 │   ├── args.yaml
 │   ├── events.out.tfevents.1716308857.1e76c7ee4f5d.2455.0
 │   ├── labels_correlogram.jpg
@@ -47,7 +47,7 @@ The project is structured as follows:
 │   ├── train_batch1.jpg
 │   ├── train_batch2.jpg
 │   └── weights
-├── train2
+├── train2 # best checkpoit for yolov8
 │   ├── args.yaml
 │   ├── confusion_matrix_normalized.png
 │   ├── confusion_matrix.png
@@ -71,14 +71,14 @@ The project is structured as follows:
 │   ├── val_batch1_labels.jpg
 │   ├── val_batch1_pred.jpg
 │   └── weights
-├── training.yaml
-├── utils
+├── training.yaml # custom dataset path
+├── utils # libs for data augmentation
 │   ├── augmentation
 │   ├── dataset.py
 │   ├── __init__.py
 │   └── __pycache__
-├── yolo_baseline.py
-└── yolov8.py
+├── yolo_baseline.py # the baseline model for comparision
+└── yolov8.py # our training plan
 ```
 
 ## Result
@@ -92,9 +92,9 @@ To reproduce the results, follow these steps:
 1. Clone the repository.
 2. Install the necessary dependencies: `pip install -r requirements.txt`.
 3. Get out data from <a href="https://www.kaggle.com/datasets/ngolehoang/sinom-augment-data">Augment-Data </a> or you can make own dataset and put data to the right folder.
-4. If you want to train from scratch run `sh run_v9.sh` or else you can use our code to finetune YOLO model
+4. If you want to train from scratch run `sh run_v9.sh` or else you can use our code to finetune YOLOv9 model
    1. Get a pretrained model weights from anywhere you can get from ""
-   2. Run `python yolov8.py`
+   2. Run `python yolov8.py` (please read the file)
 ## Authors
 This repository was made by my team consist of 4 members:
 [Luu Van Duc Thieu](https://github.com/echodrift)
@@ -104,4 +104,3 @@ This repository was made by my team consist of 4 members:
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
